@@ -1,15 +1,13 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Hi! I\'m Henrik!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Henrik Mjaaland',
+  githubUsername: 'henmja',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `I am a computer engineer from Sandnes, Norway. I have a bachelor degree in Computer Science (from the University of Stavanger), and I am currently working on a master's degree in Computer Science (due spring '20). <br /><br/> Computers has always been a hobby for me. Even though I am studying Computer Science, I am planning to major in Data Science, because I'm fascinated by how it can optimize desicion making and implement AI.<br /><br /> At the University of Stavanger we learned programming languages such as Java, Python, SQL, JS and MATLAB. <br /><br/>
+    On my sparetime I went deeper into web programming and learned to use different frameworks such as Node, React, Angular and Gatsby (which I used for this website) <br /><br />
+    </strong>`,
   skills: [
     {
       name: 'HTML',
@@ -25,55 +23,104 @@ module.exports = {
     },
     {
       name: 'NodeJs',
-      level: 40
+      level: 20
     },
     {
       name: 'React',
-      level: 60
+      level: 20
     },
     {
       name: 'Git',
       level: 70
-    }
+    },
+    {
+      name: 'Python',
+      level: 70
+    },
+    {
+      name: 'SQL',
+      level: 60
+    }, 
+    {
+      name: 'MATLAB',
+      level: 70
+    }, 
+    {
+      name: 'Golang',
+      level: 60
+    }, 
+    {
+      name: 'Java',
+      level: 80
+    },
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: "Nærbø Kyllingslakt",
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'jun',
+        year: '2019'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      occupation: "Control Technician",
+      description: "I control the assembly lines on a chicken factory and perform various other IT-related tasks."
   
     }, {
-      company: "Anapro",
+      company: "Nortura Forus",
       begin: {
-        month: 'dec',
+        month: 'jun',
+        year: '2017-18'
+      },
+      duration: '4 months',
+      occupation: "Production Operator",
+      description: "Smoking and cooking sausages at a sausage factory."
+    }, {
+      company: "Facility Services",
+      begin: {
+        month: 'jun',
         year: '2016'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      duration: '2 months',
+      occupation: "Gardener",
+      description: "General maintenance tasks."
+  
     }, {
-      company: "Anapro",
+      company: "Megaflis Forus",
       begin: {
-        month: 'set',
+        month: 'jun',
+        year: '2015'
+      },
+      duration: '2 months',
+      occupation: "Warehouse Worker",
+      description: "Receiving, sorting and stocking goods"
+  
+    }, {
+      company: "Burger & Pizza Companiet",
+      begin: {
+        month: 'jun',
+        year: '2013-14'
+      },
+      duration: '2 years',
+      occupation: "Seller/Cook",
+      description: "Cook and serve customers"
+  
+    }, {
+      company: "REMA 1000 Distribution",
+      begin: {
+        month: 'jun',
         year: '2012'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '2 months',
+      occupation: "Warehouse Worker",
+      description: "Receiving, sorting and stocking goods."
   
     },
     /* ... */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://www.facebook.com/henrik.mjaaland.1",
+    github: "https://github.com/henmja",
+    email: "henrikmjaaland@hotmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -85,7 +132,7 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Henrik Mjaaland',
       url: '/',
     }
   ]
