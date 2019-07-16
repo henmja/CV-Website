@@ -128,6 +128,7 @@ module.exports = {
   social: {
     twitter: "https://www.facebook.com/henrik.mjaaland.1",
     github: "https://github.com/henmja",
+    linkedin: "https://www.linkedin.com/in/henrik-mjaaland-60a3aa161/",
     email: "henrikmjaaland@hotmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
