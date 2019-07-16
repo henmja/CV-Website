@@ -73,7 +73,7 @@ module.exports = {
       },
       duration: '4 months',
       occupation: "Production Operator",
-      description: "Smoking and cooking sausages at a sausage factory."
+      description: "Maintenance and operation of production equipment."
     }, {
       company: "Facility Services",
       begin: {
