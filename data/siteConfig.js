@@ -63,7 +63,7 @@ module.exports = {
       },
       duration: null,
       occupation: "Control Technician",
-      description: "I control the assembly lines on a chicken factory and perform various other IT-related tasks."
+      description: "Controlling assembly lines and performing IT-related tasks."
   
     }, {
       company: "Nortura Forus",
@@ -102,7 +102,7 @@ module.exports = {
       },
       duration: '2 years',
       occupation: "Seller/Cook",
-      description: "Cook and serve customers"
+      description: "Cooking and serving customers"
   
     }, {
       company: "REMA 1000 Distribution",
