@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaEnvelope, FaFacebook } from "react-icons/fa"
+import { FaGithub, FaEnvelope, FaFacebook, FaLinkedIn } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 
 import Layout from '../components/layout'
@@ -54,6 +54,9 @@ class Home extends React.Component {
                   </a>}
                   {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
                     <FaFacebook className="social-icon" size="32" />
+                  </a>}
+                  {siteConfig.social.linkedin && <a className="social-link twitter" href={siteConfig.social.twitter}>
+                    <FaLinkedIn className="social-icon" size="32" />
                   </a>}
                   {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                     <FaEnvelope className="social-icon" size="32" />
