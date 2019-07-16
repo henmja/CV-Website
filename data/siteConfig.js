@@ -71,7 +71,7 @@ module.exports = {
       },
       duration: null,
       occupation: "Control Technician",
-      description: "Controlling assembly lines and performing IT-related tasks."
+      description: "IT-related tasks such as controlling assembly lines"
   
     }, {
       company: "Nortura Forus",
