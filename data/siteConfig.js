@@ -22,7 +22,11 @@ module.exports = {
       level: 50
     },
     {
-      name: 'NodeJs',
+      name: 'Node',
+      level: 20
+    },
+    {
+      name: 'Angular',
       level: 20
     },
     {
@@ -41,6 +45,10 @@ module.exports = {
       name: 'SQL',
       level: 60
     }, 
+    {
+      name: 'MongoDB',
+      level: 20
+    },
     {
       name: 'MATLAB',
       level: 70
