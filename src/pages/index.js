@@ -55,8 +55,8 @@ class Home extends React.Component {
                   {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
                     <FaFacebook className="social-icon" size="32" />
                   </a>}
-                  {siteConfig.social.linkedin && <a className="social-link twitter" href={siteConfig.social.twitter}>
-                    <FaLinkedIn className="social-icon" size="32" />
+                  {siteConfig.social.linkedin && <a className="social-link twitter" href={siteConfig.social.linkedin}>
+                    <FaLinkedin className="social-icon" size="32" />
                   </a>}
                   {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                     <FaEnvelope className="social-icon" size="32" />
