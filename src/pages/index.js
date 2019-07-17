@@ -79,6 +79,9 @@ class Home extends React.Component {
             <Timeline />
             <Separator />
             <Repositories />
+
+            <a href="CV.pdf" download><button class="button" >Download cv</button></a>
+
           </Container>
         </Wrapper>
       </Layout>
@@ -132,5 +135,14 @@ export default styled(Home)`
 
   a.social-link.phone:hover {
     color: #c23a2b;
+  }
+
+  .button {
+    background-color:rgb(0,180,214);
+    border:solid 1px white;
+    width:150px;
+    height:40px;
+    color:white;
+    border-radius:20px;
   }
 `
