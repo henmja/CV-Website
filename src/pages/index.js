@@ -138,7 +138,7 @@ export default styled(Home)`
   }
 
   .button {
-    background-color:rgb(0,180,214);
+    background-color:#1da1f2;
     border:solid 1px white;
     width:150px;
     height:40px;
@@ -147,6 +147,6 @@ export default styled(Home)`
   }
 
   .button:hover {
-    color: #1da1f2;
+    background-color: rgb(0,180,214);
   }
 `
