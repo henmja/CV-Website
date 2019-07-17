@@ -143,7 +143,6 @@ export default styled(Home)`
     width:150px;
     height:40px;
     color:white;
-    border-radius:20px;
   }
 
   .button:hover {
