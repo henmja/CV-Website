@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
-import { FaGithub, FaEnvelope, FaFacebook, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaEnvelope, FaFacebook, FaLinkedin, FaPhone } from "react-icons/fa"
 import siteConfig from '../../data/siteConfig'
 
 import Layout from '../components/layout'
@@ -60,6 +60,9 @@ class Home extends React.Component {
                   </a>}
                   {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
                     <FaEnvelope className="social-icon" size="32" />
+                  </a>}
+                  {siteConfig.social.phone && <a className="social-link phone" href={siteConfig.social.phone}>
+                    <Faphone className="social-icon" size="32" />
                   </a>}
                 </div>
               </Col>
@@ -124,6 +127,10 @@ export default styled(Home)`
   }
 
   a.social-link.email:hover {
+    color: #c23a2b;
+  }
+
+  a.social-link.phone:hover {
     color: #c23a2b;
   }
 `
