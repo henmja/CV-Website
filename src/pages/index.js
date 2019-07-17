@@ -80,7 +80,7 @@ class Home extends React.Component {
             <Separator />
             <Repositories />
 
-            <a href="CV.pdf" download><button class="button" >Download my CV</button></a>
+            <a href="CV.pdf" download><button class="button" >Download CV</button></a>
 
           </Container>
         </Wrapper>
