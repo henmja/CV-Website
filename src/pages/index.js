@@ -80,7 +80,7 @@ class Home extends React.Component {
             <Separator />
             <Repositories />
 
-            <a href="CV.pdf" download><button class="button" >Download cv</button></a>
+            <a href="CV.pdf" download><button class="button" >Download CV</button></a>
 
           </Container>
         </Wrapper>
@@ -144,5 +144,9 @@ export default styled(Home)`
     height:40px;
     color:white;
     border-radius:20px;
+  }
+
+  .button:hover {
+    color: #1da1f2;
   }
 `
