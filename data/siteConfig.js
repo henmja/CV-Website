@@ -11,11 +11,11 @@ module.exports = {
   skills: [
     {
       name: 'HTML',
-      level: 70
+      level: 80
     },
     {
       name: 'CSS',
-      level: 60
+      level: 80
     },
     {
       name: 'Javascript',
