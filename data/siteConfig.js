@@ -66,7 +66,7 @@ module.exports = {
       level: 50
     },
     {
-      name: 'LaTeX',
+      name: 'LaTEX',
       level: 80
     },
   ],
