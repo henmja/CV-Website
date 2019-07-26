@@ -72,6 +72,16 @@ module.exports = {
   ],
   jobs: [
     {
+      company: "Mjaaland CS Freelancing",
+      begin: {
+        month: 'jul',
+        year: '2019'
+      },
+      duration: null,
+      occupation: "Frilanser",
+      description: "Computer Science services"
+  
+    }, {
       company: "Nærbø Kyllingslakt",
       begin: {
         month: 'jun',
@@ -80,17 +90,6 @@ module.exports = {
       duration: null,
       occupation: "Control Technician",
       description: "IT-related tasks such as controlling assembly lines"
-  
-    },
-    {
-      company: "Mjaaland CS Freelancing",
-      begin: {
-        month: 'jun',
-        year: '2019'
-      },
-      duration: null,
-      occupation: "Frilanser",
-      description: "Computer Science services"
   
     }, {
       company: "Nortura Forus",
