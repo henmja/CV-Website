@@ -65,6 +65,10 @@ module.exports = {
       name: 'PHP',
       level: 50
     },
+    {
+      name: 'LaTeX',
+      level: 80
+    },
   ],
   jobs: [
     {
