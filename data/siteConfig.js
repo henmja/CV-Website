@@ -81,6 +81,17 @@ module.exports = {
       occupation: "Control Technician",
       description: "IT-related tasks such as controlling assembly lines"
   
+    },
+    {
+      company: "Mjaaland CS Freelancing",
+      begin: {
+        month: 'jun',
+        year: '2019'
+      },
+      duration: null,
+      occupation: "Frilanser",
+      description: "Computer Science services"
+  
     }, {
       company: "Nortura Forus",
       begin: {
