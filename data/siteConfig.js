@@ -145,7 +145,8 @@ module.exports = {
   ],
   social: {
     twitter: "https://www.facebook.com/henrik.mjaaland.1",
-    github: "https://github.com/henmj",
+    github: "https://github.com/henmja",
+    github: "https://404.com",
     linkedin: "https://www.linkedin.com/in/henrik-mjaaland-60a3aa161/",
     email: "henrikmjaaland@hotmail.com",
     phone: "+47 90215974",
