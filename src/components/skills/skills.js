@@ -11,3 +11,4 @@ export default ({ title = 'Skills', skills = [] }) => {
     </Fragment>
   )
 }
+

@@ -51,3 +51,4 @@ export default styled(Hero)`
   background-repeat: no-repeat;
   background-size: cover;
 `
+

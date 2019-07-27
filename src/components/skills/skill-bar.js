@@ -27,3 +27,4 @@ export default styled(SkillBar)`
        height: 8px;
   }
 `
+

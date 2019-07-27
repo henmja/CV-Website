@@ -8,3 +8,4 @@ export default ({ title = 'about', text = '' }) => {
     </Fragment>
   )
 }
+
